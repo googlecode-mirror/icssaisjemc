@@ -76,7 +76,7 @@ body{
 	-webkit-border-radius:7px;
 	-moz-border-radius:7px;
 	width:600px;
-	height:620px;
+	min-height:700px;
 	background-color:white;
 }
 
@@ -99,7 +99,7 @@ body{
 	float:left;		
 	margin:20px;
 	width:560px;
-	height:370px;
+	height:400px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;		
 	background-image:url('../images/basicInfo_bg.png');	

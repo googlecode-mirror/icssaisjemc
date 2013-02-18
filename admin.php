@@ -15,15 +15,32 @@ $(function() {
   
 	$(function() {
 		$( "#tabs" ).tabs();
-		$("#profile").hide(); 
-		$("#courses").hide(); 
-		$("#advisers").hide(); 
+		$("#manage").hide(); 
+		$("#logs").hide(); 
+		$("#mailbox").hide(); 
 	});
 
-	$("#profileTabButton").click(function(){
-		$("#profile").show(); 
+	$("#ManageUserAccounts").click(function(){
+		$("#manage").hide(); 
+		$("#logs").hide(); 
+		$("#mailbox").hide(); 
+		$("#manage").fadeIn(); 
 	});
   
+	$("#MonitorLogActivities").click(function(){
+		$("#manage").hide(); 
+		$("#logs").hide(); 
+		$("#mailbox").hide(); 
+		$("#logs").fadeIn(); 
+	});
+
+	$("#Message").click(function(){
+		$("#manage").hide(); 
+		$("#logs").hide(); 
+		$("#mailbox").hide(); 
+		$("#mailbox").fadeIn(); 
+	});
+	
 });
 </script>
 
@@ -44,7 +61,7 @@ $(function() {
 				
 			</ul>
 				<div id="tabs-1">	
-					<div class="All_tabs">
+					<div class="All_tabs" id="manage">
 					<div class="header_texts">Pick a Role:<br></div>
 					<form name="input" action="student.php" method="post">
 					<div class="texts">
@@ -60,7 +77,7 @@ $(function() {
 				</div>
 				
 				<div id="tabs-2">
-					<div class="All_tabs">
+					<div class="All_tabs" id="logs">
 					<div class="header_texts"> Log Activities<br></div>
 					<div class="button_style">Show by Date</div>
 					<div class="button_style">Show by Time</div>
@@ -69,7 +86,7 @@ $(function() {
 				</div>
 				
 				<div id="tabs-3">				
-					<div class="All_tabs">
+					<div class="All_tabs" id="mailbox">
 					<div class="texts">
 					<div class="button_style" href="#inbox">
 					Inbox(3)

@@ -285,7 +285,7 @@ img {
 				<tr><td><input type="text" name="username" placeholder="username" id="username"/></td></tr>
 				<tr><td><input type="password" name="password" placeholder="password" id="password"/></td></tr>
 			</table>
-			<a href="#"><img src="images/go.png"/></a>			
+			<a href="student.php"><img src="images/go.png"/></a>			
 		</div>
 		<div id="signUpDiv">
 			<a href="#"><img src="images/signUpLogo.png" id="signUpShow"/></a>

@@ -16,7 +16,7 @@ $(function() {
   
 	$(function() {
 		$( "#tabs" ).tabs();
-		$("#profile").hide(); 
+		$("#profile").show(); 
 		$("#courses").hide(); 
 		$("#advisers").hide(); 
 		$("#contact_admin").hide();		
@@ -134,7 +134,7 @@ $(function() {
 									
 									<tr>										
 										<td>Home Address:</td>
-										<td>Lot 1 Blk 6 Mendiola Estates Bgy. San Antonio Los Banos Laguna</td>
+										<td>236-1 Tsunekuni, Hamamatsu Shi, Toyama Ken, Japan 5689411</td>
 									</tr>
 									
 									<tr>
@@ -142,7 +142,7 @@ $(function() {
 									
 									<tr>										
 										<td>College Address:</td>
-										<td>Lot 1 Blk 6 Mendiola Estates Bgy. San Antonio Los Banos Laguna</td>
+										<td>Lot 4, 3rd Street Marymount Village, Batong Malake, Los Banos, Laguna, Philippines</td>
 									</tr>
 									<tr>
 										<td>Mobile:</td>
@@ -259,8 +259,9 @@ $(function() {
 				<div id="tabs-6">				
 					<div id="help" class="nav" bgcolor="white">	
 						<div id="help_text">
-							<p>For inquiries, you go to my office at C-777</p>
+							<p>For inquiries, you can go to my office at C-777</p>
 							<p>Carlo Virtucio</p>
+							<img src="images/potatoes.gif"/>
 						</div>					
 					</div>
 				</div>
