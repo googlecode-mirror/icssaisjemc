@@ -1,0 +1,159 @@
+body{
+	font-family: Steiner;	
+	font-weight: 900;
+}
+
+#logo{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	width: 500px;
+	margin-bottom: 3%;
+}
+
+#tabs ul{
+	margin:1;
+	padding:1;
+	list-style-type:none;
+}
+
+#tabs img{	
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+}
+
+#tabs{
+	align:center;
+}
+
+#main{		
+	width:880px;
+	margin-left:auto;
+	margin-right:auto;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+}
+
+.ui-tabs-vertical { 
+	height:480px;width: 880px; 
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.ui-tabs-vertical .ui-tabs-nav { 
+	padding: .2em .1em .2em .2em; 
+	float: left; 
+	width: 280px;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li { 
+	clear: left; 
+	width: 280px; 
+	border-bottom-width: 1px !important; 
+	border-right-width: 0 !important; 
+	margin: 0 -1px .2em 0; 
+	margin-top:5%;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a { 
+	display:block; 
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+	padding-bottom: 0; 
+	padding-right: .1em; 
+	border-right-width: 1px; 
+	border-right-width: 1px; 	
+}
+
+.ui-tabs-vertical .ui-tabs-panel { 
+	padding: 1em; 
+	float: left; 
+	width: 564px;	
+}
+
+.nav{		
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	width:600px;
+	height:620px;
+	background-color:white;
+}
+
+#profile_picture{
+	padding:20px;
+	float:left;	
+}
+
+#profile_nameAndUnits{
+	padding:20px;	
+	font-size:20px;
+}
+
+
+.profile_nameAndUnits{	
+	float:right;	
+}
+
+#profile_basicInfoBox{
+	float:left;		
+	margin:20px;
+	width:560px;
+	height:370px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;		
+	background-image:url('../images/basicInfo_bg.png');	
+}
+
+#basicInfo_logo{
+	padding:20px;
+	float:left;
+}
+
+#externalLogos{
+	margin-top:20px;
+	margin-right:20px;
+	float:right;
+}
+
+#profile_basicInfoText{
+	margin:50px;
+	width:460px;
+	height:360px;	
+	margin-right:20px;
+	float:left;	
+}
+
+#profile_basicInfoText td{
+	font-size: 20px;
+	color: white;
+}
+
+#courses_search{
+	padding:20px;
+}
+
+#advisers_search{
+	padding:20px;
+}
+
+#cases_list{
+	padding:20px;
+}
+
+#contact_admin_inbox{
+	padding:20px;
+}
+
+#contact_admin_compose{
+	padding:20px;
+}
+
+#help_text{
+	padding:20px;
+}
+
+#contact_admin_compose textarea{
+	width:560px;
+	height:200px;
+}

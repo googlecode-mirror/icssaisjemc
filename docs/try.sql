@@ -24,6 +24,7 @@ CREATE TABLE student(
 	curriculum VARCHAR(128) NOT NULL,
 	password VARCHAR(128) NOT NULL,
 	deactivated_flag BOOLEAN NOT NULL,
+	approved_flag BOOLEAN NOT NULL,
 	facebook_url VARCHAR(128),
 	twitter_url VARCHAR(128),
 	youtube_url VARCHAR(128),
@@ -42,6 +43,7 @@ CREATE TABLE instructor(
 	current_sched VARCHAR(128) NOT NULL,
 	password VARCHAR(128) NOT NULL,
 	deactivated_flag BOOLEAN NOT NULL,
+	approved_flag BOOLEAN NOT NULL,
 	designation VARCHAR(128) NOT NULL,
 	instructor_rank VARCHAR(128) NOT NULL,
 	faculty_room VARCHAR(128) NOT NULL,
@@ -58,6 +60,7 @@ CREATE TABLE encoder(
 	occupation VARCHAR(128) NOT NULL,
 	password VARCHAR(128) NOT NULL,
 	deactivated_flag BOOLEAN NOT NULL,
+	approved_flag BOOLEAN NOT NULL,
 	facebook_url VARCHAR(128),
 	twitter_url VARCHAR(128),
 	youtube_url VARCHAR(128)
