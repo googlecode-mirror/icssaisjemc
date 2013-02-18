@@ -22,13 +22,13 @@ $(function() {
 	$("#ManageInformation").click(function(){
 		$("#profile").hide(); 
 		$("#advisees").hide(); 
-		$("#profile").fadeIn(); 
+		$("#profile").fadeIn(700); 
 	});
 
 	$("#ViewStudents").click(function(){
 		$("#profile").hide(); 
 		$("#advisees").hide(); 
-		$("#advisees").fadeIn(); 
+		$("#advisees").fadeIn(700); 
 	});	
 });
 </script>

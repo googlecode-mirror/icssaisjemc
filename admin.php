@@ -24,21 +24,21 @@ $(function() {
 		$("#manage").hide(); 
 		$("#logs").hide(); 
 		$("#mailbox").hide(); 
-		$("#manage").fadeIn(); 
+		$("#manage").fadeIn(700); 
 	});
   
 	$("#MonitorLogActivities").click(function(){
 		$("#manage").hide(); 
 		$("#logs").hide(); 
 		$("#mailbox").hide(); 
-		$("#logs").fadeIn(); 
+		$("#logs").fadeIn(700); 
 	});
 
 	$("#Message").click(function(){
 		$("#manage").hide(); 
 		$("#logs").hide(); 
 		$("#mailbox").hide(); 
-		$("#mailbox").fadeIn(); 
+		$("#mailbox").fadeIn(700); 
 	});
 	
 });
