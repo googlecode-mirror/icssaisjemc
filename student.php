@@ -261,7 +261,7 @@ $(function() {
 						<div id="help_text">
 							<p>For inquiries, you can go to my office at C-777</p>
 							<p>Carlo Virtucio</p>
-							<img src="images/potatoes.gif"/>
+							<img src="images/chicks.gif"/>
 						</div>					
 					</div>
 				</div>
