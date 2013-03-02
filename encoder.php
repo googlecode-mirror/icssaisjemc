@@ -237,7 +237,7 @@ $(function() {
 				<li><a href="#tabs-1"><img src="images/student/profile.png" id="profileTabButton"/></a></li>
 				<li><a href="#tabs-2"><img src="images/encoder/encode.png" id="encodeTabButton"/></a></li>
 				<li><a href="#tabs-3"><img src="images/student/help.png" id="helpTabButton"/></a></li>
-				<li><a href="#tabs-4"><img src="images/student/logout.png" id="logoutTabButton"/></a></li>
+				<li><a href="#tabs-4"><a href="index.php"><img src="images/student/logout.png" id="logoutTabButton"/></a></a></li>
 			</ul>
 				<div id="tabs-1">	
 				
@@ -309,7 +309,7 @@ $(function() {
 					<div id="help" class="nav" bgcolor="white">						
 						<p>For inquiries, you can go to my office at C-777</p>
 						<p>Carlo Virtucio</p>
-						<img src="images/potatoes.gif"/>
+						<img src="images/chicks.gif"/>
 					</div>
 				</div>
 				
